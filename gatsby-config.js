@@ -2,14 +2,14 @@ require("dotenv").config()
 
 module.exports = {
   siteMetadata: {
-    siteTitle: "gatsby-starter-shopify",
-    siteTitleDefault: "gatsby-starter-shopify by @GatsbyJS",
-    siteUrl: "https://shopify-demo.gatsbyjs.com",
+    siteTitle: "AVIILA Online Store",
+    siteTitleDefault: "aviila-online-store",
+    siteUrl: "https://aviila.com",
     hrefLang: "en",
     siteDescription:
-      "A Gatsby starter using the latest Shopify plugin showcasing a store with product overview, individual product pages, and a cart.",
+      "The online store for miami-based men's activewear, athleisure, and lifestyle apparel company, AVIILA. AVIILA provides men with quality shorts, shirts, joggers, and pullovers.",
     siteImage: "/default-og-image.jpg",
-    twitter: "@gatsbyjs",
+    twitter: "@aviila_apparel",
   },
   flags: {
     FAST_DEV: true,
@@ -28,6 +28,19 @@ module.exports = {
     "gatsby-transformer-sharp",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        // name: `GatsbyJS`,
+        // short_name: `GatsbyJS`,
+        // start_url: `/`,
+        // background_color: `#f7f0eb`,
+        // theme_color: `#a2466c`,
+        // display: `standalone`,
+        icon: `src/images/icon.svg`,
+      },
+    },
+
     "gatsby-plugin-gatsby-cloud",
     // Add your Google Analytics ID to the .env file to enable
     // Otherwise, this plugin can be removed
