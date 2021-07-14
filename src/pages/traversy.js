@@ -119,7 +119,7 @@ export default function Traversy() {
           <Logo>Aviila</Logo>
           <Toggle></Toggle>
         </Header>
-        <Video src={TestVid} autoPlay muted loop></Video>
+        <Video src={TestVid} autoPlay defaultMuted loop></Video>
         <Overlay />
         <Text className="text">
           <Title>Be Bold</Title>
