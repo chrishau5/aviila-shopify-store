@@ -2,8 +2,8 @@ require("dotenv").config()
 
 module.exports = {
   siteMetadata: {
-    siteTitle: "AVIILA Online Store",
-    siteTitleDefault: "aviila-online-store",
+    siteTitle: "AVIILA Apparel",
+    siteTitleDefault: "AVIILA Apparel",
     siteUrl: "https://aviila.com",
     hrefLang: "en",
     siteDescription:
@@ -23,6 +23,8 @@ module.exports = {
         shopifyConnections: ["collections"],
       },
     },
+    "gatsby-plugin-styled-components",
+    "gatsby-plugin-sass",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
