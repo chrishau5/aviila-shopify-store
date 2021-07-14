@@ -8,7 +8,7 @@ import { Layout } from "../components/layout.jsx"
 export default function VariantTestPage() {
   return (
     <header className="video-header">
-      <video autoPlay playsInline defaultMuted loop>
+      <video autoPlay playsInline muted loop>
         <source src={TestVid} type="video/mp4" />
       </video>
       <Layout>
