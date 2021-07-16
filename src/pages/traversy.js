@@ -145,7 +145,7 @@ const Paragraph = styled.div`
 
   @media (max-width: ${MEDIA.test}) {
     font-size: 1em;
-    line-height: 1.7em;
+    line-height: 1.6em;
   } ;
 `
 
