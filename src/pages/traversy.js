@@ -27,6 +27,7 @@ const Showcase = styled.section`
   right: 0;
   width: 100%;
   min-height: 100vh;
+  min-height: -webkit-fill-available;
   padding: 100px;
   display: flex;
   justify-content: space-between;
