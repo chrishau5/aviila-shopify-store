@@ -141,11 +141,12 @@ const Paragraph = styled.div`
   margin: 20px 0;
   font-weight: 500;
   font-size: 1.1em;
-  max-width: 700px;
+  max-width: 600px;
 
   @media (max-width: ${MEDIA.test}) {
-    font-size: 1em;
-    line-height: 1.6em;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    max-width: 300px;
   } ;
 `
 
