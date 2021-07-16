@@ -19,6 +19,7 @@ const Wrapper = styled.div`
   margin: 0;
   padding: 0;
   font-family: "Montserrat";
+  font-size: 18px;
 `
 
 const Showcase = styled.section`
@@ -140,6 +141,11 @@ const Paragraph = styled.div`
   font-weight: 500;
   font-size: 1.1em;
   max-width: 700px;
+
+  @media (max-width: ${MEDIA.test}) {
+    font-size: 0.9em;
+    line-height: 1.5em;
+  } ;
 `
 
 const ExploreButton = styled.div`
