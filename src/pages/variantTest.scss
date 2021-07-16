@@ -1,10 +1,3 @@
-:root {
-  --headerOpacity: 1;
-  --headerScale: 1;
-  /* Change neon color */
-  --neon-color: #f0d;
-}
-
 @mixin coverer {
   width: 100vw;
   height: 100vh;
@@ -24,7 +17,7 @@
     @include coverer;
   }
   video {
-    background: brown;
+    background: rgb(12, 12, 14);
     object-fit: cover;
   }
   .viewport-header {
