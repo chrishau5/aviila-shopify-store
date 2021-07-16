@@ -129,7 +129,7 @@ const Subtitle = styled.div`
   line-height: 1em;
   text-transform: uppercase;
   font-family: Ailerons;
-  letter-spacing: -0.07em;
+  letter-spacing: -0.06em;
 
   @media (max-width: ${MEDIA.test}) {
     font-size: 2em;
@@ -143,8 +143,8 @@ const Paragraph = styled.div`
   max-width: 700px;
 
   @media (max-width: ${MEDIA.test}) {
-    font-size: 0.9em;
-    line-height: 1.5em;
+    font-size: 1em;
+    line-height: 1.7em;
   } ;
 `
 
@@ -159,6 +159,7 @@ const ExploreButton = styled.div`
   text-transform: uppercase;
   letter-spacing: 2px;
   transition: 0.2s;
+  border-radius: 5px;
   &:hover {
     letter-spacing: 6px;
   }
@@ -176,11 +177,11 @@ const Social = styled.ul`
     & a {
       display: inline-block;
       filter: invert(1);
-      margin-right: 50px;
-      transform: scale(1.2);
-      transition: 0.5s;
+      margin-right: 25px;
+      transform: scale(0.7);
+      transition: 0.7s;
       &:hover {
-        transform: scale(1.2) translateY(-15px);
+        transform: scale(0.5) translateY(-15px);
       }
     }
   }
